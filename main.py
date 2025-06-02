@@ -3,8 +3,6 @@ from time import sleep
 from billet import MoneyBillet
 
 def main(page:Page):
-        page.vertical_alignment = MainAxisAlignment.CENTER
-        page.horinzontal_alignment = CrossAxisAlignment.CENTER
         page.bgcolor = 'black'
         
         def write_numbers_at_screen(e):
